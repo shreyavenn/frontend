@@ -38,9 +38,9 @@ with st.sidebar:
 # --- HOME PAGE ---
 if selected == "Home":
     st.markdown("""
-<div style='background-color:#e6f0ff;padding:15px;border-radius:10px;'>
-    <h2 style='text-align:center;'>Migration and Validation Suite</h2>
-    <h3 style='text-align:center;'>MVS</h3> 
+    <div style='background-color:#e6f0ff;padding:15px;border-radius:10px;'>
+        <h2 style='text-align:center;'>Migration and Validation Suite</h2>
+        <h3 style='text-align:center;'>MVS</h3> 
     </div>
     """, unsafe_allow_html=True)
 
@@ -74,7 +74,6 @@ if selected == "Home":
         - Built-in governance and traceability  
         - Efficient, reliable deployment processes  
         """)
-           
 
     st.markdown("### Accelerate Your SAP Employee Central Migration")
     st.markdown("#### Purpose-built migration, validation and discrepancy analysis to make your HR Data Migration and Payroll effortless.")
@@ -163,8 +162,6 @@ if selected == "Home":
         </div>
     </div>
     """, unsafe_allow_html=True)
-
-
 
 # --- SOLUTIONS PAGE ---
 elif selected == "Solutions":
